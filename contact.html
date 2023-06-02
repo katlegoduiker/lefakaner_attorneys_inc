@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Contact Us - Lefakane R Attorneys Inc</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-709SYXKZ6F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-709SYXKZ6F');
+    </script>
+
+    <!-- Google Recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="A black female-owned boutique law firm providing niche legal services for you and your business.">
+    <meta name="keywords" content="Lefakane R Attorneys Inc.">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="contact.css">
+
+    <!-- Custom Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/362f96f7ce.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo.svg" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <!-- scroll to top button -->
+        <button onclick="topFunction()" id="myBtn" title="Go to Top"> <i class="fas fa-chevron-up"></i></button>
+
+        <header>
+            <!-- place navbar here -->
+            <div class="row">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/logo.png" alt="" id="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon" id="menu-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        About Us
+                                    </a>
+                                    <ul class="dropdown-menu" style="border: transparent;">
+                                        <li><a class="dropdown-item" href="index.html#about-us">Who We Are</a></li>
+                                        <li><a class="dropdown-item" href="index.html#businesses">For Businesses</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="index.html#individuals">For Individuals</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="services.html">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- Hero -->
+            <div class="row" id="hero">
+                <div class="col">
+                    <div>
+                        <h1>Get In Touch</h1>
+                        <div class="inner">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- two columns here -->
+            <div class="row" id="content">
+                <div class="col-12 col-md-6 col-lg-6" id="col1">
+                    <h1>Talk To Us</h1>
+                    <div>
+                        <p id="below-header">We'd Love To Hear From You</p>
+                        <div class="inner1">&nbsp;</div>
+                    </div>
+                    <div id="contact-details">
+                        <p>info@lefakanerattinc.co.za</p>
+                        <p>+27 60 607 2575</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6" id="col2">
+                    <form action="form.php" method="post">
+                        <div class="col-half1">
+                            <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                        </div>
+                        <div class="col-half2">
+                            <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                        </div>
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                        <textarea name="message" id="message" placeholder="Comment or Message"></textarea>
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <!-- google maps location -->
+        <div class="row">
+            <div class="col-12" id="google-location">
+                <p><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.802253677638!2d28.13245137508228!3d-26.170568862604416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95121877ac0b51%3A0x15f228b8029a4608!2sRegus%20-%20Johannesburg%2C%20Eastrand%20Bedfordview!5e0!3m2!1sen!2sza!4v1683750662908!5m2!1sen!2sza"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            </div>
+        </div>
+
+        <!-- footer here -->
+        <div class="row">
+            <footer>
+                <!-- place footer here -->
+                <p>&copy;2023 LefakaneR Att. Inc by <a href="https://katlegowebdesigns.co.za/" target="blank"
+                        id="developer-link">Katlego Web Designs</a></p>
+            </footer>
+        </div>
+
+    </div> <!-- close div container fluid -->
+
+    <script src="script.js"></script>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
